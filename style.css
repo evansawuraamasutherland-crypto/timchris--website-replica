@@ -1,0 +1,83 @@
+body {
+    background-color :blue
+    color: white;
+    font-family: Arial, sans-serif;
+} /* Navigation */
+header {
+    padding: 20px 6%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 22px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+/* Hero section */
+.hero {
+    padding: 120px 6%;
+    max-width: 1000px;
+}
+
+.hero h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    max-width: 800px;
+    margin: 25px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.hero button {
+    margin-top: 25px;
+    padding: 16px 28px;
+    background-color: white;
+    color: #0C1B2A;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}/* Mobile adjustments */
+@media (max-width: 600px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    nav ul {
+        gap: 12px;
+        padding-left: 0;
+        font-size: 13px;
+    }
+
+    nav h2 {
+        font-size: 17px;
+    }
+
+    .hero {
+        padding: 80px 5%;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}         
